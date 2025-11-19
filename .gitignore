@@ -1,0 +1,47 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Platform builds
+android/.gradle/
+android/app/*.keystore
+android/app/*.jks
+android/local.properties
+android/build/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+macos/Pods/
+macos/Runner.xcworkspace/
+linux/build/
+windows/build/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Others
+*.log
+*.lock
+*.class
+*.pyc
+*.swp
+.DS_Store
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Coverage
+coverage/
