@@ -1,74 +1,79 @@
-🇩🇪 German App (Flutter Social App)
+German App
 
-A modern Twitter-style social network built with Flutter, featuring real-time posting, likes, comments, profiles, search, and smooth animations.
-This app is designed as a minimal but complete micro-blogging platform.
+A clean, modern micro-blogging app built with Flutter, inspired by Twitter.
+Users can post text, like content, comment, follow others, and manage their own profile.
+The app focuses on smooth UI, simple interactions, and a polished dark theme.
 
-✨ Features
-📝 Posting
+What You Can Do
+Posting
 
 Create text posts
 
-Character & word counters
+Word and character counting
 
-Animated post confirmation
+Smooth success animation after posting
 
-Expandable long posts
+Expand long posts when tapped
 
-❤️ Interaction
+Interaction
 
-Like/unlike posts with animations
+Like and unlike posts with animated feedback
 
-Comment on any post
+Comment on posts
 
-Real-time engagement counters
+Engagement counters update instantly
 
-Smooth UI transitions & shadows
+Users
 
-👤 Users
+Follow and unfollow other users
 
-Follow / unfollow users
+View profile pages with user details and stats
 
-User profile page
+Profiles show total posts, followers, and following
 
-User stats: posts, followers, following
+Search
 
-Profile gradients based on user ID
+Search for users by username or display name
 
-🔍 Search
+Fast and clean navigation to user pages
 
-Search users by username or display name
+Content Management
 
-Clean UI and instant navigation
+Delete your own posts
 
-🗑️ Manage Content
+Confirmation dialog before deleting
 
-Delete posts with confirmation dialog
+Fun removal animation and optimistic UI updates
 
-Fun delete animation
+UI & Experience
 
-Instant optimistic UI updates
+Modern dark theme with gradients
 
-📱 UI & UX
-
-Modern glassy/gradient dark theme
-
-Animated cards
-
-Smooth feed scrolling
+Smooth scrolling feed
 
 Pull-to-refresh
 
-Scroll-to-top floating button
+Button to return to the top of the feed
 
-🛠️ Tech Stack
-Frontend (Flutter)
+Animated cards and transitions
+
+Tech Stack
+Flutter
 
 Flutter 3.x
 
-Provider (state management)
+Provider for state management
 
-Custom animations
+Custom animations (AnimatedContainer, AnimatedSwitcher, AnimatedCrossFade)
 
-AnimatedContainer, AnimatedSwitcher, AnimatedCrossFade
+Material Design with custom gradients
 
-Material 3 + custom gradients
+Backend (Expected API)
+
+Node.js / Express
+
+JWT authentication
+
+PostgreSQL
+
+Endpoints for posts, likes, comments, users, and follow system
