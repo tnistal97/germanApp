@@ -1,16 +1,74 @@
-# german_test
+🇩🇪 German App (Flutter Social App)
 
-A new Flutter project.
+A modern Twitter-style social network built with Flutter, featuring real-time posting, likes, comments, profiles, search, and smooth animations.
+This app is designed as a minimal but complete micro-blogging platform.
 
-## Getting Started
+✨ Features
+📝 Posting
 
-This project is a starting point for a Flutter application.
+Create text posts
 
-A few resources to get you started if this is your first Flutter project:
+Character & word counters
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Animated post confirmation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Expandable long posts
+
+❤️ Interaction
+
+Like/unlike posts with animations
+
+Comment on any post
+
+Real-time engagement counters
+
+Smooth UI transitions & shadows
+
+👤 Users
+
+Follow / unfollow users
+
+User profile page
+
+User stats: posts, followers, following
+
+Profile gradients based on user ID
+
+🔍 Search
+
+Search users by username or display name
+
+Clean UI and instant navigation
+
+🗑️ Manage Content
+
+Delete posts with confirmation dialog
+
+Fun delete animation
+
+Instant optimistic UI updates
+
+📱 UI & UX
+
+Modern glassy/gradient dark theme
+
+Animated cards
+
+Smooth feed scrolling
+
+Pull-to-refresh
+
+Scroll-to-top floating button
+
+🛠️ Tech Stack
+Frontend (Flutter)
+
+Flutter 3.x
+
+Provider (state management)
+
+Custom animations
+
+AnimatedContainer, AnimatedSwitcher, AnimatedCrossFade
+
+Material 3 + custom gradients
